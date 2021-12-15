@@ -17,27 +17,20 @@ GAN--生成对抗网络，被“卷积网络之父”**Yann LeCun（杨立昆）
 
 ## 近期活动🔥🔥🔥
 
-- 🔥**2021.7.9-2021.9**🔥
+- 🔥**2021.12.08**🔥
 
-  **💙AI创造营：Metaverse启动机之重构现世💙**
+  **💙 AI快车道👩‍🏫：视频超分算法及行业应用 💙**
+  - **视频超分SOTA算法详解**
+  - **视频传输大幅降本提速方案**
+  - **影像修复视频超分案例实践**
+  - **直播link🔗：http://live.bilibili.com/21689802**
+  - **报名链接💡：https://paddleqiyeban.wjx.cn/vj/tKidSqZ.aspx?udsid=453804**
 
-  **PaddlePaddle × Wechaty × Mixlab 创意赛，参赛者可大开脑洞，运用PaddleGAN的花式能力，打造属于你自己的聊天机器人！**
+  ⭐ **扫码加入技术交流群** ⭐
 
-  **奖品丰厚，等你来拿🎁🎈🎊**
-
-  💰**一等奖 1 名**：3万元人民币 / 队
-
-  🎮**二等奖 2 名**：PS5游戏机 1个(价值5000元) / 队
-
-  🕶**三等奖 3 名**：VR眼镜 1个(价值3000元) / 队
-
-  💝**最佳人气奖 1 名**：3D打印机 1个(价值2000元) / 队
-
-  **还在等什么，快来点击报名吧：https://aistudio.baidu.com/aistudio/competition/detail/98**
-
-  **如何用PaddleGAN在比赛中杀出重围？请见：[PaddleGAN X WeChaty Demo示例](./paddlegan-wechaty-demo/REAME.md)**
-
-  **更多详情，请查看[比赛讲解直播回放](https://www.bilibili.com/video/BV18y4y1T7Ek)💞**
+  <div align='center'>
+    <img src='https://user-images.githubusercontent.com/48054808/144846956-cca238df-4106-43d5-a21e-7370f501971a.png' width='200'/>
+  </div>
 
 - 2021.4.15~4.22
 
@@ -52,7 +45,13 @@ GAN--生成对抗网络，被“卷积网络之父”**Yann LeCun（杨立昆）
   **想要看直播回放视频请点击链接：https://www.bilibili.com/video/BV1GZ4y1g7xc**
 
 ## 产品动态
+- 💛 **最新发布** 💛
 
+  👀 **视频超分SOTA算法[PP-MSVSR](./docs/zh_CN/tutorials/video_super_resolution.md)：一行命令从"马赛克"到"高清影像"** 👀
+  - **[完整在线教程](https://aistudio.baidu.com/aistudio/projectdetail/3205183)**
+  <div align='center'>
+    <img src='https://user-images.githubusercontent.com/48054808/144848981-00c6ad21-0702-4381-9544-becb227ed9f0.gif' width='600'/>
+  </div>
 - 😍 **人脸编辑神器：[StyleGAN V2人脸属性编辑](./docs/zh_CN/tutorials/styleganv2editing.md)之性别转换--怕什么孤单？和自己谈一场恋爱吧！** 😍
   - **[完整在线教程](https://aistudio.baidu.com/aistudio/projectdetail/2565277?contributionType=1)**
   <div align='center'>
@@ -231,6 +230,14 @@ GAN--生成对抗网络，被“卷积网络之父”**Yann LeCun（杨立昆）
 
 
 ## 版本更新
+- v2.1.0 (2021.12.8)
+  - 发布视频超分辨率模型PP-MSVSR以及多个预训练权重
+  - 发布BasicVSR，IconVSR与Basicvsr++等多个效果领先的视频超分辨率模型及其预训练模型
+  - 发布轻量级动作驱动模型（体积压缩：229M->10.1M），并优化融合效果
+  - 发布高分辨率的FOMM和Wav2Lip预训练模型
+  - 发布人脸反演，人脸融合和人脸编辑等多个基于StyleGANv2的有趣应用
+  - 发布百度自研且效果领先的风格迁移模型LapStyle及其有趣应用，并上线官网[体验页面](https://www.paddlepaddle.org.cn/paddlegan)
+  - 发布轻量的图像超分辨模型PAN
 
 - v2.0.0 (2021.6.2)
   - 发布[Fisrt Order Motion](https://github.com/PaddlePaddle/PaddleGAN/blob/develop/docs/en_US/tutorials/motion_driving.md)模型以及多个预训练权重
@@ -238,6 +245,15 @@ GAN--生成对抗网络，被“卷积网络之父”**Yann LeCun（杨立昆）
   - 发布视频超分辨模型[EDVR](https://github.com/PaddlePaddle/PaddleGAN/blob/develop/docs/en_US/tutorials/video_super_resolution.md)以及多个预训练权重
   - 发布PaddleGAN对应的[七日打卡训练营](https://github.com/PaddlePaddle/PaddleGAN/tree/develop/education)内容
   - 增强PaddleGAN在windows平台运行的鲁棒性
+
+- v2.0.0-beta (2021.3.1)
+  - 完全切换Paddle 2.0.0版本的API。
+  - 发布超分辨模型：ESRGAN，RealSR，LESRCNN，DRN等
+  - 发布唇形迁移模型：Wav2Lip
+  - 发布街景动漫化模型：AnimeGANv2
+  - 发布人脸动漫化模型：U-GAT-IT ，Photo2Cartoon
+  - 发布高清人脸生成模型：StyleGAN2
+
 - v0.1.0 (2020.11.02)
   - 初版发布，支持Pixel2Pixel、CycleGAN、PSGAN模型，支持视频插针、超分、老照片/视频上色、视频动作生成等应用。
   - 模块化设计，接口简单易用。
